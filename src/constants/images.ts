@@ -14,13 +14,17 @@ const Images = {
   testimonials_5: "http://0.thsite.top/wp-content/uploads/2024/07/5.jpg",
   testimonials_6: "http://0.thsite.top/wp-content/uploads/2024/07/6.jpg",
 
-  // Base URL for all images
-  dragonlogo: "http://0.thsite.top/wp-content/uploads/2024/07/dragonlogo.png",
-  your_image: "http://0.thsite.top/wp-content/uploads/2024/07/your-image.png",
+  // phone case images
+  phone_template:
+    "http://0.thsite.top/wp-content/uploads/2024/08/phone-template.png",
   phone_template_dark_edges:
     "http://0.thsite.top/wp-content/uploads/2024/07/phone-template-dark-edges.png",
   phone_template_white_edges:
     "http://0.thsite.top/wp-content/uploads/2024/07/phone-template-white-edges.png",
+    
+  // Base URL for all images
+  dragonlogo: "http://0.thsite.top/wp-content/uploads/2024/07/dragonlogo.png",
+  your_image: "http://0.thsite.top/wp-content/uploads/2024/07/your-image.png",
   line: "http://0.thsite.top/wp-content/uploads/2024/07/line.png",
   what_people_are_buying:
     "http://0.thsite.top/wp-content/uploads/2024/07/what-people-are-buying.png",
