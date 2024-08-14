@@ -122,6 +122,9 @@ const DesignPreview = ({ configuration }: { configuration: Configuration }) => {
 
           <div className="mt-8 flex justify-end pb-12">
             <Button
+              isLoading={true}
+              loadingText="loaging"
+              disabled={true}
               // onClick={() => handleCheckout()}
               className="px-4 sm:px-6 lg:px-8"
             >
