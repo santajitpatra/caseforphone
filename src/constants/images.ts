@@ -1,45 +1,66 @@
 // Create an object containing image paths
 const Images = {
-  // dragon images
-  dragon_1: "http://0.thsite.top/wp-content/uploads/2024/07/dragon_1.png",
-  dragon_2: "http://0.thsite.top/wp-content/uploads/2024/07/dragon_2.png",
-  dragon_3: "http://0.thsite.top/wp-content/uploads/2024/07/dragon_3.png",
-  dragon_4: "http://0.thsite.top/wp-content/uploads/2024/07/dragon_4.png",
+  // Base URL for all images
 
-  // testimonials
-  testimonials_1: "http://0.thsite.top/wp-content/uploads/2024/07/1.jpg",
-  testimonials_2: "http://0.thsite.top/wp-content/uploads/2024/07/2.jpg",
-  testimonials_3: "http://0.thsite.top/wp-content/uploads/2024/07/3.jpg",
-  testimonials_4: "http://0.thsite.top/wp-content/uploads/2024/07/4.jpg",
-  testimonials_5: "http://0.thsite.top/wp-content/uploads/2024/07/5.jpg",
-  testimonials_6: "http://0.thsite.top/wp-content/uploads/2024/07/6.jpg",
+  your_image:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/your-image.png",
+  line: "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/line.png",
+  what_people_are_buying:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/what-people-are-buying.png",
+  arrow:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/arrow.png",
+
+  // User images case
+  clearphone:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/clearphone.png?t=2024-09-07T19%3A06%3A30.212Z",
+  democase:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/democase.jpg",
+
+  // dragon images
+  dragonlogo:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/dragonlogo.png",
+  dragon_1:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/dragon_1.png",
+  dragon_2:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/dragon_2.png",
+  dragon_3:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/dragon_3.png",
+  dragon_4:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/dragon_4.png",
 
   // phone case images
   phone_template:
-    "http://0.thsite.top/wp-content/uploads/2024/08/phone-template.png",
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/phone-template.png",
   phone_template_dark_edges:
-    "http://0.thsite.top/wp-content/uploads/2024/07/phone-template-dark-edges.png",
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/phone-template-dark-edges.png",
   phone_template_white_edges:
-    "http://0.thsite.top/wp-content/uploads/2024/07/phone-template-white-edges.png",
-    
-  // Base URL for all images
-  dragonlogo: "http://0.thsite.top/wp-content/uploads/2024/07/dragonlogo.png",
-  your_image: "http://0.thsite.top/wp-content/uploads/2024/07/your-image.png",
-  line: "http://0.thsite.top/wp-content/uploads/2024/07/line.png",
-  what_people_are_buying:
-    "http://0.thsite.top/wp-content/uploads/2024/07/what-people-are-buying.png",
-  arrow: "http://0.thsite.top/wp-content/uploads/2024/07/arrow.png",
-
-  // User images case
-  clearphone: "http://0.thsite.top/wp-content/uploads/2024/07/clearphone.png",
-  democase: "http://0.thsite.top/wp-content/uploads/2024/07/democase.jpg",
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/phone-template-white-edges.png",
 
   // User images
-  user_1: "http://0.thsite.top/wp-content/uploads/2024/07/user-1.png",
-  user_2: "http://0.thsite.top/wp-content/uploads/2024/07/user-2.png",
-  user_3: "http://0.thsite.top/wp-content/uploads/2024/07/user-3.png",
-  user_4: "http://0.thsite.top/wp-content/uploads/2024/07/user-4.jpg",
-  user_5: "http://0.thsite.top/wp-content/uploads/2024/07/user-5.jpg",
+  user_1:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/users/user-1.png",
+  user_2:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/users/user-2.png",
+  user_3:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/users/user-3.png",
+  user_4:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/users/user-5.jpg",
+  user_5:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/users/user-5.jpg",
+
+  // testimonials
+  testimonials_1:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/testimonials/1.jpg",
+  testimonials_2:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/testimonials/2.jpg",
+  testimonials_3:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/testimonials/3.jpg",
+  testimonials_4:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/testimonials/4.jpg",
+  testimonials_5:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/testimonials/5.jpg",
+  testimonials_6:
+    "https://gbcjxboylozieatgvids.supabase.co/storage/v1/object/public/test-data/testimonials/6.jpg",
 };
 
 // Export the object for easy access
